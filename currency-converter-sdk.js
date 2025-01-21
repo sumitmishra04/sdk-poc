@@ -94,6 +94,7 @@ class CurrencyConverterSDK {
    * Handle the conversion when the button is clicked.
    */
   handleConvert() {
+    console.log('handle convert')
     const { amount, currency } = this.data;
 
     if (!amount || isNaN(amount)) {
